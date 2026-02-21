@@ -414,7 +414,7 @@ public class DragonSlayer extends BasicQuestHelper
 
 		openMelzarChest = new ObjectStep(this, ObjectID.FUNCHESTSHUT, new WorldPoint(2935, 9657, 0), "Open the chest and get Melzar's map part.");
 
-		goUpToDukeHoracio = new ObjectStep(this, ObjectID.SPIRALSTAIRS, new WorldPoint(3205, 3208, 0), "Talk to Duke Horacio on the first floor of Lumbridge castle for the anti-dragon shield if you don't have one.");
+		goUpToDukeHoracio = new ObjectStep(this, 56230, new WorldPoint(3205, 3208, 0), "Talk to Duke Horacio on the first floor of Lumbridge castle for the anti-dragon shield if you don't have one.");
 
 		getShield = new NpcStep(this, NpcID.DUKE_OF_LUMBRIDGE, new WorldPoint(3210, 3220, 1), "Talk to Duke Horacio on the first floor of Lumbridge castle for the anti-dragon shield if you don't have one.");
 		getShield.addDialogStep("I seek a shield that will protect me from dragonbreath.");
